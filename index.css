@@ -1,15 +1,24 @@
-*{
-    background-color: rgb(22, 22, 22);
-    font-family: 'Anybody', cursive;
-}
-h1{
+/* font-family: 'Anybody', cursive; */
+.titre{
     color: rgb(1, 184, 1);
-    display: flex;
-    justify-content: center;
-    font-size: 100px;
-}
-.image_green{
+    font-family: 'Anybody', cursive;
+    background-color: rgb(22, 22, 22);
     display: flex;
     flex-direction: row;
     justify-content: center;
-}  
+}
+.titre h1{
+    font-size: 100px;
+}
+.image_green{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.carte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(22, 22, 22);
+}
