@@ -86,5 +86,9 @@
     text-decoration: none;
 }
 footer{
-    background-color: white;
+    background-color: rgb(82, 82, 82);
+    padding-top: 10px;
+}
+body{
+    background-color: rgb(82, 82, 82);
 }
