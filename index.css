@@ -96,6 +96,7 @@ footer{
 }
 body{
     background-color: rgb(48, 48, 48);
+    padding-top: 72px;
 }
 .logo_green_it{
     height: 56px;
@@ -114,17 +115,63 @@ body{
 html{
     background-color: rgb(82,82,82);
 }
-#logo_facebook{
+#logo_facebook, #logo_twitter{
     text-decoration: none;
     color: white;
+}
+.logo_twitter{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 .div_logo_greenit{
     display: flex;
 }
 .logo_fa{
     display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 .divdiv{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+.div_navbar{
+    background-color: rgb(22, 22, 22);
+}
+.navbar-brand{
+    color: rgb(165, 165, 165);
+}
+header{
+    background-color: rgb(22, 22, 22);
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.yo{
+    background-color: rgb(22, 22, 22);
+    font-family: 'Anybody', cursive;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(165, 165, 165);
+    margin-left: 30px;
+}
+.logo_illustration{
+    height: 25px;
+    width: 25px;
+}
+#logo_panier, #logo_recyclage, #logo_ordinateur, #logo_code{
+    height: 25px;
+    width: 25px;
+    color: rgb(165, 165, 165);
 }
