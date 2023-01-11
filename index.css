@@ -21,6 +21,7 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(22, 22, 22);
+    font-family: 'Anybody', cursive;
 }
 .card{
     margin-top: 50px;
