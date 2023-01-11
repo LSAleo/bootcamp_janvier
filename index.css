@@ -172,10 +172,13 @@ header{
 #carouselExampleCaptions{
     height: 600px;
 }
-#image_co2{
+#image_co2, #vrai_co2{
     height: 600px;
 }
 .slide1{
-    color: rgb(0, 0, 0);
+    color: red;
     font-weight: bold;
+}
+.slide2{
+    color: black;
 }
