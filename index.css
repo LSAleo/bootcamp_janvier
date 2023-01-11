@@ -172,13 +172,11 @@ header{
 #carouselExampleCaptions{
     height: 600px;
 }
-#image_co2, #vrai_co2{
+#image_co2, #vrai_co2, #logo_yt{
     height: 600px;
 }
-.slide1{
-    color: red;
-    font-weight: bold;
-}
-.slide2{
-    color: black;
+.slide1, .slide2, .slide3{
+    color: white;
+    background-color: rgba(22,22,22,0.5);
+    padding: 10px;
 }
