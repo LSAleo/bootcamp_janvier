@@ -1,4 +1,11 @@
 /* font-family: 'Anybody', cursive; */
+
+
+
+
+
+
+
 .titre{
     color: rgb(1, 184, 1);
     font-family: 'Anybody', cursive;
@@ -38,14 +45,23 @@
     flex-direction: row;
     justify-content: center;
 }
+#definition{
+    background-color: rgb(22,22,22);
+}
 .def{
     background-color: rgb(22, 22, 22);
     font-family: 'Anybody', cursive;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    color: rgb(165, 165, 165);
+    justify-content: left;
+    margin-left: 50px;
+    border-color: rgb(22, 22, 22);
+}
+#saut_de_ligne_def{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-decoration: underline;
 }
 .pk_et_comment{
     background-color: rgb(22, 22, 22);
